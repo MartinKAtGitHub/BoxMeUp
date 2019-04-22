@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{C2D919C8-0018-5641-979D-338051EEB96B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -60,8 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MainMenuManger.cs" />
-    <Compile Include="Assets\QuitGame.cs" />
+    <Compile Include="Assets\Scripts\MainMenuManger.cs" />
+    <Compile Include="Assets\Scripts\QuitGame.cs" />
     <Compile Include="Assets\Scripts\BoxManager.cs" />
     <Compile Include="Assets\Scripts\BoxSpawner.cs" />
     <Compile Include="Assets\Scripts\ForceSleep.cs" />
